@@ -30,3 +30,27 @@ Dibuat dengan **Python + PyQt5** untuk antarmuka grafis.
 ```bash
 git clone https://github.com/username/namaproject.git
 cd namaproject
+
+
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+
+pip install -r requirements.txt
+
+
+pip install PyQt5 matplotlib numpy pandas openpyxl reportlab
+
+
+python app.py
+
+
+
+.
+├── app.py          # Main GUI aplikasi
+├── wsn.py          # Modul Wireless Sensor Network
+├── heed.py         # Algoritma HEED clustering
+├── aco.py          # Algoritma Ant Colony Optimization
+├── requirements.txt
+└── README.md
